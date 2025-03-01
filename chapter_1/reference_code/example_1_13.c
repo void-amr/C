@@ -3,7 +3,7 @@
  * 	@Date 	:- 28/2/25 
  * 	@ Program to calculate area of circle, using while loop; 
  *    the results are stored in an array of structures; 
- * 	  the number of circles is unspecified 
+ * 	  the number of circles is unspecified,
  * 	  a string is entered to identify each data set */ 
 
  // Header file 
