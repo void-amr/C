@@ -17,7 +17,7 @@
  	int a, b, min; 
 
  	/* print in format To Stop enter 0 with space :- white space character */ 
- 	printf("To Stop enter 0 ");
+ 	printf("To Stop enter 0 for each number ");
 
  	/* print in format :- Please enter the first number with space :- whitespace */ 
  	printf("Please enter the first number: "); 
@@ -68,6 +68,6 @@
  		/* True block */
  		return(num1);
  	else 
- 		/* False block */
+ 		/* False block */ 
  		return(num2); 
  }
