@@ -13,7 +13,9 @@
  #define VALUE_4 '\0'
  #define VALUE_5 '\a'
  #define VALUE_6 '\n'
+ /* VALUE_7 :- multicharacter constant -Wmutlichar */ 
  #define VALUE_7 '/n'
+ /* VALUE_8 :- multicharacter constant -Wmutlichar */ 
  #define VALUE_8 'xyz'
  #define VALUE_9 '\052'
 
