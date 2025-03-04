@@ -43,6 +43,11 @@
  
  #define ASCII_CODE 65
 
+ /* 	
+ 	This is not valid on integer constant we can't use suffix "ha"
+ */ 
+ #define VALIDORNOT 0x87e3ha 
+
  main() 
  {
  	/* Entry point function */
@@ -57,5 +62,7 @@
 
  	printf("%c\n", CHARACTER_COSTANT);
 
- 	printf("%c", ASCII_CODE); 
+ 	printf("%c", ASCII_CODE);
+
+ 	printf("%d", VALIDORNOT);  
  }

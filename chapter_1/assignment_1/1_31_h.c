@@ -18,11 +18,13 @@
  	   int */ 
  	int a[100], b[100], min[100];
  	int i = 0, n;
+ 	
  	/* print in format TO stop enter 0 for each number space :- whitespace */ 
  	printf("TO stop enter 0 for each number "); 
 
  	/* print in format :- \n :- new line Please enter the first number with space :- whitespace */ 
  	printf("\nPlease enter the first number: "); 
+
  	/* scan in format :- %d as format specification 
  	   this function also takes MEMORY_LOCATION :- a[i] as arguement 
  	   transfer stdin data to MEMORY_LOCATION */  
@@ -30,6 +32,7 @@
 
  	/* print in format :- \n :- newline Please enter the second number with space :- whitespace */
  	printf("\nPlease enter the second number: ");
+ 	
  	/* scan in format :- %d as format specification 
  	   this function also takes MEMORY_LOCATION :- b[i] as arguement 
  	   transfer the stdin data to MEMORY_LOCATION */ 
@@ -40,19 +43,21 @@
 
  		/* Storing return value of function smaller in variable min[i] */
  		min[i] = smaller(a[i], b[i]); 
+ 	
  		/* print in format \n :- new line The smallest number is %d :- format \n :- new line  
  		   this function also takes value stored at MEMORY_LOCATION :- min[i] as arguement */  
  		printf("\nThe smallest number is %d", min[i]); 		
 
  		/* Incrementing the index of array to store new data set */ 
-
  		i = i + 1; 
  		
  		/* print in format Index ic count : %d :- format \n :- new line 
  		   this function also takes value stored at MEMORY_LOCATION :- i */ 
  		printf("\nIndex ic count: %d\n", i);
+
  		/* print in format :- Please enter the first number space :- whitespace */
  		printf("\nPlease enter the first number "); 
+ 		
  		/* scan in format :- %d as format specification
  		   this function also takes MEMORY_LOCATION :-a[++i] as arguement 
  		   transfers the stdin data to MEMORY_LOCATION */ 
@@ -60,6 +65,7 @@
 
  		/* print in format \n :- newline Please enter the second number space :- white space */
  		printf("\nPlease enter the second number "); 
+ 		
  		/* scan in format :- %d as format specification 
  		   this function also takes MEMORY_LOCATION :- b[++i] as arguement 
  		   transfers the stdin data to MEMORY_LOCATION */
