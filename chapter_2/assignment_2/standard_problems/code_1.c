@@ -6,7 +6,6 @@
 
  /* Header file */ 
  #include <stdio.h>
- #include <regex.h>
 
  int main(void)
  {
