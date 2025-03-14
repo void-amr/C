@@ -63,17 +63,16 @@
   	 */ 
 
   	 if(power == 1)
-  	 	return base * 1;
+  	 	return base;
 
   	 /* We take the constant variable so that we could multiply the base with the same number again and again 
   	 	If we mutliply base with base it get's re-assigned 
   	 */ 
-  	 
+
   	 const int VALUE_TO_MULTIPLY = base;
 
-  	 for(int le = 0; le < power; le++)	{
+  	 for(int le = 1; le <= power; le++)	{
   	 	/* Here we multiply the same number redundantly for power of times */
-  	 	printf("\n%d",base); 
   	 	base = base * VALUE_TO_MULTIPLY; 
   	 }  
 
