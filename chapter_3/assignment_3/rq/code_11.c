@@ -13,6 +13,5 @@
 	 int c1 = 'E', c2 = 5, c3 = '?';
 
 	 printf("Value of operation:- %d", (int)(69.0/5.0) * 63);
-	
 	 return 0; 
  } 
