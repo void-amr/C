@@ -1,19 +1,17 @@
 /**
  * 	@Author	:- Aryan Mahesh Ranjane	<ranjanearyan82@gmail.com> 
- * 	@Date	:- 29/3/25
+ * 	@Date	:- 1/4/25 
  */ 
-
+ 
  // Header Files 
  #include <stdio.h> 
  
  int main(void) 
- {
+ { 
 	 // Entry point function. 
-         
-	 float x = 8.8, y = 3.5, z = -5.2; 
+	
+	 printf("%f",(8 - 3 * 5) % (99 + 2 * 100)/(0.005 + 0.01));
 
-	 printf("%f", x + y + z);
-         
-	 return 0; 
- }
- 
+	 return 0;
+	  
+ } 
