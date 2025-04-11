@@ -16,9 +16,7 @@
 
 	 /* enter the text */ 
 
-	 for(count = 0; (letter[count] = getchar()) != '\n'; ++count) {
-
-		 ; 
+	 for(count = 0; (letter[count] = getchar()) != '\n'; ++count) { 
 		 
 		 /* tag the character count */ 
 		 tag = count; 
@@ -26,7 +24,7 @@
 	 }
 		 /* Display the line in uppercase */ 
 		 
-		 for(count = 0; count < tag; ++count) {
+		 for(count = 0; count <= tag; ++count) {
 
 			 putchar(toupper(letter[count]));
 		 } 	 
