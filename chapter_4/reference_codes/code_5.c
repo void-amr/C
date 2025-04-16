@@ -13,11 +13,10 @@
 	 
 	 char ch = 'c';  
 
-	 printf("%s -> address of var:- %p",&ch, &ch);
+	 printf("%c -> address of var:- %p",ch, &ch);
  	 
 	 ch = 'd'; 
-	 printf("\n%s", &ch);
+	 printf("\n%c -> address of var:- %p", ch, &ch);
 	 
-	 scanf("%s",ch);
 	 return 0;
  } 
